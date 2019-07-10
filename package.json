@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Gregory Assasie",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "1.30.1",
+    "dotenv": "7.0.0",
+    "nexmo": "2.4.1",
+    "ora": "3.1.0",
+    "puppeteer": "1.12.2",
+    "tty-table": "2.7.0"
+  },
+  "bin": {
+    "dvsa": "./index.js"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "1.12.1"
+  }
+}
